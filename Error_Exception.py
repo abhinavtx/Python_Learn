@@ -6,6 +6,8 @@ x = 5
 zt = 4
 y = 'Hello'
 
+
+
 try:
     # This section contains the segment which might contain an error
     zt /= 0  

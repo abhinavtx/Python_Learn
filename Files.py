@@ -16,6 +16,8 @@ with open('test.txt', 'r') as f:
     print(fContents)
     print(f.read(10)) # This tells to read only 10 characters
 
+    f.seek(0,0)
+    # seek command is used to reset the pointer of file reader
 
 # Now writing
 with open('test2.txt', 'w') as f2:
