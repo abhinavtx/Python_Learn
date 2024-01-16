@@ -4,15 +4,13 @@ import time
 
 class hello(Thread):
     def run(self):
-        for i in range(10):
+        for i in range(1000):
             print("Hello")
-            time.sleep(0.1)
             
 class hi(Thread):
     def run(self):
-        for i in range(10):
+        for i in range(1000):
             print("Hi")
-            time.sleep(0.1)
 t1 = hello()
 t2 = hi()
 
